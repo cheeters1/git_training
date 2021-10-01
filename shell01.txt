@@ -1,3 +1,5 @@
+some new cheats
+
 ex01
 
 export FT_USER=student/staff (setting the local variable)
