@@ -1,0 +1,22 @@
+ex01
+
+export FT_USER=student/staff (setting the local variable)
+declare -x <KEY>=<VALUE>
+
+groups $FT_USER | tr ' ' ',' | tr -d '\n'
+
+
+ex02
+
+find . -type f -name *.sh -exec basename {} \; | sed 's/.sh//g'
+
+ex03
+
+find . -type f -or -type d | wc -l
+
+ex04
+ifconfig -a | grep ether | awk '{print $2}'
+
+ex05
+
+lololo
